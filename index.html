@@ -14,20 +14,20 @@
         <br>
         <p>Mi primer encuesta</p>
         <hr>
-        <label for="Name">Nombre:</label>
-        <input type="text" id="Name" name="Name" value="Ingresa tu nombre"> <br>
-        <label for="Age">Edad:</label>
-        <input type="number" id="Age" name="Age" value="Ingresa tu edad"> <br>
-        <label for="City">Ciudad donde vives:</label>
-        <input type="text" id="City" name="City" value="Ingresa la ciudad donde vives"> <br> 
-        <label for="Birthday">Fecha de nacimiento:</label>
-        <input type="date" id="Birthday" name= "Birthday"> <br>
-        <label for="Hobby"> Pasatiempo:</label>
-        <input type="text" id="Hobby" name="Hobby" value="Ingresa tu pasatiempo"> <br> 
-        <a href="resultados.html">
-            <button type="button" a href>¡Ingresamos datos!</button>
-        </a>
-    
+        <form action="resultados.php" method="post">
+            <label for="Name">Nombre:</label>
+            <input type="text" id="Name" name="Name" value="Ingresa tu nombre"> <br>
+            <label for="Age">Edad:</label>
+            <input type="number" id="Age" name="Age" value="Ingresa tu edad"> <br>
+            <label for="City">Ciudad donde vives:</label>
+            <input type="text" id="City" name="City" value="Ingresa la ciudad donde vives"> <br> 
+            <label for="Birthday">Fecha de nacimiento:</label>
+            <input type="date" id="Birthday" name= "Birthday"> <br>
+            <label for="Hobby"> Pasatiempo:</label>
+            <input type="text" id="Hobby" name="Hobby" value="Ingresa tu pasatiempo"> <br> 
+            <button type="submit">¡Ingresamos datos!</button>
+            
+        </form>
     </div>
 </body>
 </html>
